@@ -6,47 +6,46 @@
 ![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-purple?style=for-the-badge)
 ![GitHub](https://img.shields.io/badge/GitHub-Project-black?style=for-the-badge&logo=github)
 
-## 📝 Descripción del Proyecto
-Este repositorio contiene el desarrollo completo de la **Capa Gold (Capa de Negocio)** de un ecosistema de datos. El objetivo principal fue transformar datos transaccionales crudos en una estructura analítica optimizada para la toma de decisiones, culminando en un dashboard interactivo que visualiza el rendimiento de ventas, comportamiento de productos y segmentación de clientes.
+## 📝 Project Description
+This project showcases the end-to-end development of a Business Intelligence ecosystem, focused on the Gold Layer (Business Layer) architecture. By transforming raw transactional data into high-performance analytical views, I engineered a robust foundation for strategic decision-making. The project concludes with an interactive dashboard that translates complex SQL logic into actionable insights regarding sales growth, product lifecycles, and customer demographics.
 
-> **Visualiza el resultado final:** > ![Dashboard Preview](dashboard/dashboard-preview.png)
-
----
-
-## 🚀 Características Técnicas (SQL)
-El motor de este proyecto reside en la lógica de negocio implementada en SQL Server. Se crearon vistas avanzadas que automatizan métricas clave:
-
-* **Análisis de Desempeño YoY:** Uso de funciones de ventana (`LAG`, `OVER`) para calcular el crecimiento año tras año por producto.
-* **Análisis Acumulativo:** Implementación de *Running Totals* y *Moving Averages* para identificar tendencias de ventas a largo plazo.
-* **Segmentación de Datos:** Clasificación dinámica de productos por rangos de costo y clientes por geografía.
-* **Métricas de Participación:** Cálculos de "Part-to-Whole" para determinar el impacto de cada categoría en el ingreso total.
+> **View the final result:** > ![Dashboard Preview](dashboard/dashboard-preview.png)
 
 ---
 
-## 📂 Estructura de las Vistas (Capa Gold)
-El script principal genera las siguientes tablas lógicas:
+## 🚀 Technical Features (SQL)
+The engine of this project lies in the business logic implemented via SQL Server. Advanced views were created to automatic key metrics:
+* **Year-Over-Year (YoY) Performance:** Utilization of window functions (LAG, OVER) to calculate annual growth per product.
+* **Cumulative Analysis:** Implementation of Running Totals and Moving Averages to identify long-term sales trends.
+* **Data Segmentation:** Dynamic classification of products by cost ranges and customers by geographic location.
+* **Participation Metrics:** "Part-to-Whole" calculations to determine the revenue impact of each product category.
+
+---
+
+## 📂 View Structure (Gold Layer)
+The main script generates the following logical tables:
 
 | Vista | Propósito Analítico |
 | :--- | :--- |
-| `gold.cumulative_analysis` | Tendencias históricas y acumulados mensuales. |
-| `gold.performance_analysis` | Comparativa de ventas actuales vs promedio y año anterior. |
-| `gold.part_to_analysis` | Porcentaje de contribución por categoría de producto. |
-| `gold.data_segmentation` | Agrupación de inventario por rangos de costo. |
-| `gold.customers_country` | Distribución demográfica de la base de clientes. |
+| `gold.cumulative_analysis` | Historical trends and monthly cumulative totals. |
+| `gold.performance_analysis` | Comparison of current sales vs. average and previous year. |
+| `gold.part_to_analysis` | Contribution percentage by product category. |
+| `gold.data_segmentation` | Inventory grouping by cost ranges. |
+| `gold.customers_country` | Demographic distribution of the customer base. |
 
 ---
 
-## 📈 Insights del Dashboard
-Basado en la integración de las vistas SQL con la herramienta de visualización:
-1.  **Dominio de Categoría:** Las bicicletas representaron el **96.46%** de las ventas totales, identificándolas como el motor principal del negocio.
-2.  **Crecimiento Temporal:** Se observa un pico significativo de ventas y captación de clientes entre 2013 y 2014.
-3.  **Eficiencia de Costos:** El **37.29%** de los productos vendidos se encuentran en el rango "Below 100", lo que sugiere un alto volumen de ventas en productos de entrada.
-4.  **Distribución Global:** América del Norte se posiciona como el mercado con mayor densidad de clientes.
+## 📈 Dashboard Insights
+Based on the integration of SQL views with the visualization tool:
+1.  **Category Dominance:** Bikes accounted for 96.46% of total sales, identifying them as the primary business driver.
+2.  **Temporary Growth:** A significant peak in sales and customer acquisition is observed between 2013 and 2014.
+3.  **Cost Efficiency:** 37.29% of products sold fall within the "Below 100" range, suggesting high sales volume for entry-level products.
+4.  **Global Distribution:** North America stands out as the market with the highest customer density.
 
 ---
 
-## 🛠️ Instalación y Uso
-1. **Clonar el repositorio:**
+## 🛠️ Installation and Usage
+1. **Clone the repository:**
    ```bash
       git clone https://github.com/leandrogallo-dev/data-analytics-dashboard.git
    ```
