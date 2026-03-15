@@ -33,6 +33,9 @@ The main script generates the following logical tables:
 | `gold.data_segmentation` | Inventory grouping by cost ranges. |
 | `gold.customers_country` | Demographic distribution of the customer base. |
 
+> ## More tables info:
+> ![tables doc](docs/tables-info.md) 
+
 ---
 
 ## 📈 Dashboard Insights
