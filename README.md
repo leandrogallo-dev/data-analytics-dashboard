@@ -3,6 +3,8 @@
 [![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)](https://powerbi.microsoft.com/)
 [![Database Architecture](https://img.shields.io/badge/Architecture-Medallion_Gold-gold?style=for-the-badge)](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-purple?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black?style=for-the-badge&logo=github)
 
 ## 📝 Descripción del Proyecto
 Este repositorio contiene el desarrollo completo de la **Capa Gold (Capa de Negocio)** de un ecosistema de datos. El objetivo principal fue transformar datos transaccionales crudos en una estructura analítica optimizada para la toma de decisiones, culminando en un dashboard interactivo que visualiza el rendimiento de ventas, comportamiento de productos y segmentación de clientes.
@@ -46,4 +48,57 @@ Basado en la integración de las vistas SQL con la herramienta de visualización
 ## 🛠️ Instalación y Uso
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/leandrogallo-dev/data-analytics-dashboard.git
+      git clone https://github.com/leandrogallo-dev/data-analytics-dashboard.git
+   ```
+   
+---
+
+# 📂 Repository Structure
+
+```
+sanoyfresco-sales-analytics
+│
+├── dashboard/ # dashboard from power BI
+├── datasets/  # Dataset used for the analysis
+├── scripts/   # SQL scripts with analytical queries
+│
+├── docs/      # Project documentation
+│
+├── README.md  # Project documentation
+└── LICENSE
+```
+
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+---
+
+# 👨‍💻 About Me
+
+Hi! I'm **Leandro Gallo**, a **Systems Engineering student** from Argentina with a strong interest in:
+
+- Data Engineering
+- Data Analytics
+- Backend Development
+- Cybersecurity
+- Software Development
+
+I enjoy building **data pipelines, automation tools, and data-driven systems**, and I am currently developing projects to strengthen my skills in **data architecture, SQL development, and analytics**.
+
+This repository is part of my **technical portfolio**, where I showcase projects related to:
+
+- Data Warehousing
+- ETL Pipelines
+- Data Modeling
+- Analytics
+
+---
+
+# 🔗 Connect With Me
+
+📧 Email  
+leandrogallo698@gmail.com
+
