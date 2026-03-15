@@ -6,7 +6,9 @@ The **Gold Layer** represents the final stage of data transformation. These view
 
 ## 🏗️ View Definitions
 
-> **Table Diagram:** > ![Dashboard Preview](tables_diagram.png)
+> **Table Diagram:**
+> 
+> ![Dashboard Preview](tables_diagram.png)
 
 ### 1. `gold.cumulative_analysis`
 **Purpose:** Analyzes sales momentum over time by aggregating totals at a monthly level.
